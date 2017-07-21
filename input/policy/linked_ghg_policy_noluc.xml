@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+	 <!-- set USA CO2 as ghg policy to work inline with target finder, should check how theese demand is actually applied if correct, may need to switch -->
+	 <ghgpolicy name="GHG">
+	    <market>global</market>
+         </ghgpolicy>
+	 <linked-ghg-policy name="CO2">
+	    <market>global</market>
+	    <linked-policy>GHG</linked-policy>
+            <price-adjust fillout="1" year="1975">1</price-adjust>
+            <demand-adjust fillout="1" year="1975">3.666666667</demand-adjust>
+            <market>global</market>
+            <price-unit>1990$/tC</price-unit>
+            <output-unit>MtC</output-unit>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <price-adjust fillout="1" year="1975">5.727272727</price-adjust>
+            <demand-adjust fillout="1" year="1975">21</demand-adjust>
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+            <price-unit>1990$/GgCH4</price-unit>
+            <output-unit>TgCH4</output-unit>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <price-adjust fillout="1" year="1975">84.54545454</price-adjust>
+            <demand-adjust fillout="1" year="1975">310</demand-adjust>
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+            <price-unit>1990$/GgN2o</price-unit>
+            <output-unit>TgN2O</output-unit>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <price-adjust fillout="1" year="1975">5.727272727</price-adjust>
+            <demand-adjust fillout="1" year="1975">21</demand-adjust>
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+            <price-unit>1990$/GgCH4</price-unit>
+            <output-unit>TgCH4</output-unit>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <price-adjust fillout="1" year="1975">5.727272727</price-adjust>
+            <demand-adjust fillout="1" year="1975">21</demand-adjust>
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+            <price-unit>1990$/GgCH4</price-unit>
+            <output-unit>TgCH4</output-unit>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <price-adjust fillout="1" year="1975">84.54545454</price-adjust>
+            <demand-adjust fillout="1" year="1975">310</demand-adjust>
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+            <price-unit>1990$/GgN2o</price-unit>
+            <output-unit>TgN2O</output-unit>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <price-adjust fillout="1" year="1975">84.54545454</price-adjust>
+            <demand-adjust fillout="1" year="1975">310</demand-adjust>
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+            <price-unit>1990$/GgN2o</price-unit>
+            <output-unit>TgN2O</output-unit>
+         </linked-ghg-policy>
+      </region>
+      <region name="Africa_Eastern">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Africa_Northern">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Africa_Southern">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Africa_Western">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Australia_NZ">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Brazil">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Canada">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Central America and Caribbean">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Central Asia">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="China">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="EU-12">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="EU-15">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Europe_Eastern">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Europe_Non_EU">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="European Free Trade Association">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="India">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Indonesia">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Japan">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Mexico">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Middle East">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Pakistan">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Russia">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South Africa">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South America_Northern">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South America_Southern">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South Asia">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South Korea">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Southeast Asia">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Taiwan">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Argentina">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Colombia">
+         <linked-ghg-policy name="CO2">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AWB">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="N2O_AGR">
+            <market>global</market>
+            <linked-policy>GHG</linked-policy>
+         </linked-ghg-policy>
+      </region>
+   </world>
+</scenario>
