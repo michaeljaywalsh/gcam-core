@@ -106,7 +106,7 @@ OSNAME_LOWERCASE := $(shell uname -s | tr '[:upper:]' '[:lower:]')
 JAVAINC = -I$(JAVA_INCLUDE) -I$(JAVA_INCLUDE)/$(OSNAME_LOWERCASE)
 JAVALIB = -L$(JAVA_LIB)
 JAVA_RPATH = -Wl,-rpath,$(JAVA_LIB)
-JAVALINK = -ljvm
+JAVALINK = -L$(JAVA_LIB) -ljvm
 JARSLIB = -DJARS_LIB="\"$(JARS_LIB)\""
 else
 JAVAINC = 

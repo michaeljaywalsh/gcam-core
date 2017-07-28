@@ -7,7 +7,7 @@ source("../algae-processing-code/AlgaeHeaders.r")
 
 
 CCUMode <- 'gas'
-suffix <- "_SO_NOU"
+suffix <- ""
 CCUXML <- paste0("CCU_",CCUMode,suffix,".xml")
 CCUBatch <- paste0('batch_CCU_',CCUMode,suffix,'.xml')
 TechDict <- list(gas="gas (CC CCU)",biomass="biomass (IGCC CCU)",coal="coal (IGCC CCU")
@@ -19,7 +19,7 @@ unlink(paste0("../xml/energy-xml/",CCUXML))
 unlink(paste0("../energy-processing-code/xml-batch/",CCUBatch))
 
 StartYear = 2015
-secoutput.sector <- "electricity_net_ownuse" #"elect_td_ind" "electricity"
+secoutput.sector <- "electricity" #"elect_td_ind" "electricity"
 
 #Equivalence Table
 getInput('L223.EQUIV_TABLE') %>% 

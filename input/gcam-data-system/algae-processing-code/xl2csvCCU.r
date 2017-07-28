@@ -1,8 +1,9 @@
 #Script to Convert Premade GCAM excel datatables to individual CSV files with creation of common batch xml file
 library(XML)
 library(readxl)
-setwd("/home/michael/GCAM/gcam-core/algae-processing")
-unlink(file.path(getwd(),"CCU"),recursive=TRUE)
+#setwd("/home/michael/GCAM/gcam-core/algae-processing")
+setwd("/home/michael/GCAM/gcam-core/input/gcam-data-system/algae-data")
+#unlink(file.path(getwd(),"CCU"),recursive=TRUE)
 
 #Expiremental Data
 #L221.AgYield_Alg -- Yield, set to 0 to shut off
@@ -37,9 +38,9 @@ TaxFile <- "../input/policy/ctax_noAlgae.xml"
 PolicyTarget = FALSE
 StopPeriod = -1 #-1 default, 2050 = 11
 
-Ccoefs = "../input/gcam-data-system/xml/energy-xml/Ccoef.xml"
+Ccoefs = "../energy-xml/Ccoef.xml"
 PolicyTargetFile = 'forcing_target_2d.xml'
-agdemand.Alt = "../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml"
+agdemand.Alt = "../aglu-xml/demand_input_ALT.xml"
 
 
 
@@ -64,8 +65,8 @@ xml.tail = c(
 # file.copy("../../../Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/demand_input_ALT.xlsx",getwd(),overwrite=TRUE)
 # file.copy("../../../Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/CCU",getwd(),recursive=TRUE,overwrite=TRUE)
 
-file.copy("../../../Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Technology",getwd(),recursive=TRUE,overwrite=TRUE)
-file.copy("../../../Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Geospatial",getwd(),recursive=TRUE,overwrite=TRUE)
+file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Technology.GCAM",getwd(),recursive=TRUE,overwrite=TRUE)
+file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Geospatial.GCAM",getwd(),recursive=TRUE,overwrite=TRUE)
 
 
 AgAlgFile = "ag_Alg"
@@ -79,7 +80,7 @@ CCUfile = "CCU_GAS" #"CCU_GAS", "CCU_BIO", "CCU_GAS_fso", "CCU_BIO_fso", "" if n
 
 n = 1
 for (f in files){
-  filename = paste0("XLSXs/",f,".xlsx")
+  filename = paste0("Technology.GCAM/",f,".xlsx")
   f.sheets = excel_sheets(filename)
   xml = xml.header
   for (i in 1:length(f.sheets)){
@@ -91,7 +92,7 @@ for (f in files){
     ws2 = rbind(ws.header,ws.data)
     #write out
     if (!(nchar(CCUfile)==0 && f.sheets[i] == "L221.AgCoef_FC_Alg")){
-      write.table(ws2,paste("../input/gcam-data-system/",dirs[n],"-data/level2/",f.sheets[i],".csv",sep=""),row.names = FALSE,na="",col.names=FALSE,sep=',',quote=FALSE)
+      write.table(ws2,paste("../",dirs[n],"-data/level2/",f.sheets[i],".csv",sep=""),row.names = FALSE,na="",col.names=FALSE,sep=',',quote=FALSE)
       xml=c(xml,paste("        <csvFile>../",dirs[n],"-data/level2//",f.sheets[i],".csv","</csvFile>",sep=""))
     }
   }
@@ -102,8 +103,8 @@ for (f in files){
     else {CCUsuffix<- ""}
   
   #Add XML Footer
-  xml=c(xml,paste0("        <outFile>../xml/",dirs[n],"-xml//",f,CCUsuffix,".xml</outFile>"))
-  write(c(xml,xml.tail),paste0("../input/gcam-data-system/",dirs[n],"-processing-code/xml-batch/batch_",f,CCUsuffix,".xml"))
+  xml=c(xml,paste0("        <outFile>../xml/",dirs[n],"-xml//",f,CCUsuffix,"2.xml</outFile>"))
+  write(c(xml,xml.tail),paste0("../",dirs[n],"-processing-code/xml-batch/batch_",f,CCUsuffix,"2.xml"))
   print(c("Making ",f,CCUsuffix))
   n = n+1
 }
@@ -112,23 +113,23 @@ for (f in files){
 if (nchar(CCUfile)>0){
   print("Applying CCU Model, MAKE SURE TO ADD XML TAG")
   xml = xml.header
-  f.sheets = excel_sheets(paste0("XLSXs/",CCUfile,".xlsx"))
+  f.sheets = excel_sheets(paste0("Technology.GCAM/",CCUfile,".xlsx"))
   for (i in 1:length(f.sheets)){
-    ws = read_excel(paste0("XLSXs/",CCUfile,".xlsx"),i,col_names=FALSE)
+    ws = read_excel(paste0("Technology.GCAM/",CCUfile,".xlsx"),i,col_names=FALSE)
     ws.header = head(ws,5)
-    ws.data = read_excel(paste0("XLSXs/",CCUfile,".xlsx"),i,col_names=FALSE,skip=5)
+    ws.data = read_excel(paste0("Technology.GCAM/",CCUfile,".xlsx"),i,col_names=FALSE,skip=5)
     ws.data = signif_df(ws.data,4)
     ws2 = rbind(ws.header,ws.data)
-    write.table(ws2,paste0("../input/gcam-data-system/energy-data/level2/",f.sheets[i],".csv"),row.names = FALSE,na="",col.names=FALSE,sep=',',quote=FALSE)
+    write.table(ws2,paste0("../energy-data/level2/",f.sheets[i],".csv"),row.names = FALSE,na="",col.names=FALSE,sep=',',quote=FALSE)
     xml=c(xml,paste0("        <csvFile>../energy-data/level2//",f.sheets[i],".csv","</csvFile>"))
   }
   xml=c(xml,paste0("        <outFile>../xml/energy-xml//",CCUfile,".xml</outFile>"))
-  write(c(xml,xml.tail),paste0("../input/gcam-data-system/energy-processing-code/xml-batch/batch_",CCUfile,".xml"))
+  write(c(xml,xml.tail),paste0("../energy-processing-code/xml-batch/batch_",CCUfile,".xml"))
 }
 
-setwd('../input/gcam-data-system/energy-data')
+setwd('../energy-data')
 system('make XML_BATCH')
 setwd('../aglu-data')
 system('make XML_BATCH')
-setwd('../../../algae-processing')
+setwd('../algae-processing-code')
 

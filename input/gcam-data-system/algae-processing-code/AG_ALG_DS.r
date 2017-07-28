@@ -9,7 +9,7 @@ source("../algae-processing-code/AlgaeHeaders.r")
 #Add option for coprodcution
 
 ALGAE = TRUE
-USECCU = TRUE
+USECCU = FALSE
 ALGFOOD = TRUE
 COPRODUCTION = TRUE
 
@@ -64,7 +64,7 @@ LandCarbon.Soil <- function(AEZ){
 }
 
 #Copy over algae production data -- Could integrate in the future
-yields <- read_csv("../algae-data/Geospatial.GCAM/algae_yield/top10.csv") %>%
+yields <- read_csv("../algae-data/AlgaeGeospatial/top10.csv") %>%
   select(region,X6,Annual) %>%
   rename(AgSupplySubsector=X6)
 

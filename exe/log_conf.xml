@@ -53,14 +53,14 @@
 	<Logger name="solver-data-log" type="PlainTextLogger">
 		<FileName>logs/solver-data-log.txt</FileName>
 		<printLogWarningLevel>0</printLogWarningLevel>
-		<minLogWarningLevel>6</minLogWarningLevel>
+		<minLogWarningLevel>0</minLogWarningLevel>
 		<minToScreenWarningLevel>6</minToScreenWarningLevel>
 		<headerMessage>{date}:{time}</headerMessage>
 	</Logger>
 	<Logger name="solver-data-key" type="PlainTextLogger">
 		<FileName>logs/solver-data-key.txt</FileName>
 		<printLogWarningLevel>0</printLogWarningLevel>
-		<minLogWarningLevel>6</minLogWarningLevel>
+		<minLogWarningLevel>0</minLogWarningLevel>
 		<minToScreenWarningLevel>6</minToScreenWarningLevel>
 		<headerMessage>{date}:{time}</headerMessage>
 	</Logger>

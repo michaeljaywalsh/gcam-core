@@ -72,3 +72,5 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 *.xcuserstate
+/libs/
+/ModelInterface/

@@ -8,8 +8,9 @@ setwd("/home/michael/GCAM/gcam-core/input/gcam-data-system/algae-data")
 
 
 #Update From DropBox
-file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Technology.GCAM",".",recursive=TRUE,overwrite=TRUE)
-file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Geospatial.GCAM",".",recursive=TRUE,overwrite=TRUE)
+file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Algae_GCAM_ProcessData.xlsx","../algae-data",overwrite=TRUE)
+file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Ccoef_FC.xml","../algae-data",overwrite=TRUE)
+file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/AlgaeGeospatial","../algae-data",recursive=TRUE,overwrite=TRUE)
 
 RegNotIncluded <- c('Canada','Russia','Europe_Eastern','European Free Trade Association')
 regnames <- read_csv("../_common/mappings/GCAM_region_names_32reg.csv",skip=3) %>%
@@ -23,7 +24,7 @@ baseyears <- tibble(year=c(1975,1990,2005,2010))
 algregyears <- as_tibble(merge(algregnames,years))
 regyears <- as_tibble(merge(regnames,years))
 
-ProcessData <- "../algae-data/Technology.GCAM/Algae_GCAM_ProcessData.xlsx"
+ProcessData <- "../algae-data/Algae_GCAM_ProcessData.xlsx"
 
 
 
