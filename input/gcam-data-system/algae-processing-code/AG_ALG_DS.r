@@ -16,7 +16,7 @@ COPRODUCTION = TRUE
 
 #Global Tech Share Weights 1975-2100
 AltAlgFood.shwt <- c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
-AltAlgCoprd.shwt <- c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1) #Use 0 to shut off
+AltAlgCoprd.shwt <-  c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1) #Use 0 to shut off
 FeedAlt.shwt <- c(0,0,0,0,0,.2,.4,.6,.8,1,1,1,1,1,1,1,1,1,1,1,1,1) #use 0 to shut off
 DemandAlt.shwt <- c(0,0,0,0,0,.2,.4,.6,.8,1,1,1,1,1,1,1,1,1,1,1,1,1) #use 0 to shutoff
 
@@ -38,7 +38,7 @@ unlink(paste0("../aglu-processing-code/xml-batch/",demandbatch))
 
 
 #NEED TO IMPROVE to extract directly from the data
-aeznames <- read_csv("../algae-data/Technology.GCAM/algAEZ.csv",skip=3)
+aeznames <- read_csv("../algae-data/AlgaeGeospatial/algAEZ.csv",skip=3)
 aezyears <- as_tibble(merge(aeznames,years))
 
 
