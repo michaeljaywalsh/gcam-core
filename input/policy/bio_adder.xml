@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+         <linked-ghg-policy name="bio-adder">
+             <!-- double check unit conversions -->
+            <price-adjust fillout="1" year="1975">0.505326</price-adjust>
+            <!-- do not add biomass back into CO2 market -->
+            <demand-adjust fillout="1" year="1975">0</demand-adjust>
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+            <price-unit>1975$/GJ</price-unit>
+            <output-unit>MtC</output-unit>
+         </linked-ghg-policy>
+      </region>
+      <region name="Africa_Eastern">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Africa_Northern">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Africa_Southern">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Africa_Western">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Australia_NZ">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Brazil">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Canada">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Central America and Caribbean">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Central Asia">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="China">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="EU-12">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="EU-15">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Europe_Eastern">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Europe_Non_EU">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="European Free Trade Association">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="India">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Indonesia">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Japan">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Mexico">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Middle East">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Pakistan">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Russia">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South Africa">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South America_Northern">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South America_Southern">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South Asia">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="South Korea">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Southeast Asia">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Taiwan">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Argentina">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+      <region name="Colombia">
+         <linked-ghg-policy name="bio-adder">
+            <market>global</market>
+            <linked-policy>CO2</linked-policy>
+         </linked-ghg-policy>
+      </region>
+   </world>
+</scenario>

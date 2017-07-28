@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario name="CCSP450">
+	<world>
+		<region name="USA">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+				<isFixedTax>1</isFixedTax>
+<fixedTax year="2020">22.7203</fixedTax>
+<fixedTax year="2025">28.9975</fixedTax>
+<fixedTax year="2030">37.009</fixedTax>
+<fixedTax year="2035">47.2339</fixedTax>
+<fixedTax year="2040">60.2838</fixedTax>
+<fixedTax year="2045">76.9391</fixedTax>
+<fixedTax year="2050">98.196</fixedTax>
+<fixedTax year="2055">125.326</fixedTax>
+<fixedTax year="2060">159.951</fixedTax>
+<fixedTax year="2065">204.142</fixedTax>
+<fixedTax year="2070">260.543</fixedTax>
+<fixedTax year="2075">332.526</fixedTax>
+<fixedTax year="2080">354.293</fixedTax>
+<fixedTax year="2085">389.396</fixedTax>
+<fixedTax year="2090">413.485</fixedTax>
+<fixedTax year="2095">450.425</fixedTax>
+<fixedTax year="2100">487.365</fixedTax>
+
+			</ghgpolicy>
+		</region>
+		<region name="Canada">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="EU-15">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Europe_Non_EU">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="European Free Trade Association">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="Japan">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="Australia_NZ">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="Central Asia">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Russia">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="China">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="Middle East">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="Africa_Eastern">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Africa_Northern">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Africa_Southern">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Africa_Western">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="South Africa">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="Brazil">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Central America and Caribbean">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Mexico">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="South America_Northern">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="South America_Southern">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Argentina">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Colombia">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="Indonesia">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Pakistan">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="South Asia">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Southeast Asia">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="Taiwan">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="Europe_Eastern">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+        <region name="EU-12">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="South Korea">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+		<region name="India">
+			<ghgpolicy name="CO2">
+				<market>global</market>
+			</ghgpolicy>
+		</region>
+	</world>
+</scenario>

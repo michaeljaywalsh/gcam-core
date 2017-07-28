@@ -1,0 +1,2834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Eastern">
+
+
+         <supplysector name="regional biomass">
+
+            <subsector name="regional biomass">
+
+               <technology name="regional biomass">
+
+                   <period year="2005">
+
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+
+                   </period>
+
+               </technology>
+
+            </subsector>
+
+         </supplysector>
+
+      </region>
+      <region name="Africa_Northern">
+
+
+         <supplysector name="regional biomass">
+
+            <subsector name="regional biomass">
+
+               <technology name="regional biomass">
+
+                   <period year="2005">
+
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+
+                   </period>
+
+               </technology>
+
+            </subsector>
+
+         </supplysector>
+
+      </region>
+      <region name="Africa_Southern">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Africa_Western">
+
+
+         <supplysector name="regional biomass">
+
+            <subsector name="regional biomass">
+
+               <technology name="regional biomass">
+
+                   <period year="2005">
+
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+
+                   </period>
+
+               </technology>
+
+            </subsector>
+
+         </supplysector>
+
+      </region>
+      <region name="Australia_NZ">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Brazil">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Canada">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Central America and Caribbean">
+
+
+         <supplysector name="regional biomass">
+
+            <subsector name="regional biomass">
+
+               <technology name="regional biomass">
+
+                   <period year="2005">
+
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+
+                   </period>
+
+               </technology>
+
+            </subsector>
+
+         </supplysector>
+
+      </region>
+      <region name="Central Asia">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="China">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="EU-12">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="EU-15">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Europe_Eastern">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Europe_Non_EU">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="European Free Trade Association">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="India">
+
+
+         <supplysector name="regional biomass">
+
+            <subsector name="regional biomass">
+
+               <technology name="regional biomass">
+
+                   <period year="2005">
+
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+
+                   </period>
+
+               </technology>
+
+            </subsector>
+
+         </supplysector>
+
+      </region>
+      <region name="Indonesia">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Japan">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Mexico">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Middle East">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Pakistan">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Russia">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Africa">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Northern">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South America_Southern">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Asia">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="South Korea">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Southeast Asia">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Argentina">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Colombia">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+      <region name="Taiwan">
+         <policy-portfolio-standard name="bio-adder">
+            <policyType>tax</policyType>
+            <market>USA</market>
+	    <isFixedTax>1</isFixedTax>
+            <!--min-price year="2015" fillout="1">-100</min-price-->
+            <fixedTax year="2020">1.78</fixedTax>
+            <fixedTax year="2025">2.28</fixedTax>
+            <fixedTax year="2030">2.92</fixedTax>
+            <fixedTax year="2035">3.72</fixedTax>
+            <fixedTax year="2040">4.74</fixedTax>
+            <fixedTax year="2045">6.06</fixedTax>
+            <fixedTax year="2050">7.74</fixedTax>
+            <fixedTax year="2055">9.88</fixedTax>
+            <fixedTax year="2060">12.6</fixedTax>
+            <fixedTax year="2065">16.08</fixedTax>
+            <fixedTax year="2070">20.52</fixedTax>
+            <fixedTax year="2075">26.18</fixedTax>
+            <fixedTax year="2080">33.42</fixedTax>
+            <fixedTax year="2085">42.66</fixedTax>
+            <fixedTax year="2090">54.44</fixedTax>
+            <fixedTax year="2095">69.5</fixedTax>
+            <fixedTax year="2100">88.7</fixedTax>
+         </policy-portfolio-standard>
+         <supplysector name="regional biomass">
+            <subsector name="regional biomass">
+               <technology name="regional biomass">
+                   <period year="2005">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2010">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2015">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2020">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2025">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2030">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2035">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2040">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2045">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2050">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2055">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2060">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2065">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2070">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2075">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2080">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2085">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2090">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2095">
+                       <input-tax name="bio-adder"/>
+                   </period>
+                   <period year="2100">
+                       <input-tax name="bio-adder"/>
+                   </period>
+               </technology>
+            </subsector>
+         </supplysector>
+      </region>
+   </world>
+</scenario>

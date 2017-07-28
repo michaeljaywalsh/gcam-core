@@ -1,0 +1,194 @@
+#List of Algae AEZs,
+,
+,
+region,AEZ
+USA,AlgaeAEZ06
+USA,AlgaeAEZ07
+USA,AlgaeAEZ08
+USA,AlgaeAEZ09
+USA,AlgaeAEZ10
+USA,AlgaeAEZ11
+USA,AlgaeAEZ12
+Africa_Eastern,AlgaeAEZ01
+Africa_Eastern,AlgaeAEZ02
+Africa_Eastern,AlgaeAEZ03
+Africa_Eastern,AlgaeAEZ04
+Africa_Eastern,AlgaeAEZ05
+Africa_Eastern,AlgaeAEZ06
+Africa_Eastern,AlgaeAEZ07
+Africa_Eastern,AlgaeAEZ08
+Africa_Eastern,AlgaeAEZ09
+Africa_Eastern,AlgaeAEZ10
+Africa_Eastern,AlgaeAEZ11
+Africa_Eastern,AlgaeAEZ12
+Africa_Northern,AlgaeAEZ01
+Africa_Northern,AlgaeAEZ02
+Africa_Northern,AlgaeAEZ04
+Africa_Northern,AlgaeAEZ07
+Africa_Northern,AlgaeAEZ08
+Africa_Northern,AlgaeAEZ09
+Africa_Northern,AlgaeAEZ10
+Africa_Southern,AlgaeAEZ01
+Africa_Southern,AlgaeAEZ02
+Africa_Southern,AlgaeAEZ03
+Africa_Southern,AlgaeAEZ04
+Africa_Southern,AlgaeAEZ05
+Africa_Southern,AlgaeAEZ06
+Africa_Southern,AlgaeAEZ07
+Africa_Southern,AlgaeAEZ08
+Africa_Southern,AlgaeAEZ09
+Africa_Southern,AlgaeAEZ10
+Africa_Southern,AlgaeAEZ11
+Africa_Western,AlgaeAEZ01
+Africa_Western,AlgaeAEZ02
+Africa_Western,AlgaeAEZ03
+Africa_Western,AlgaeAEZ04
+Africa_Western,AlgaeAEZ05
+Africa_Western,AlgaeAEZ06
+Africa_Western,AlgaeAEZ07
+Africa_Western,AlgaeAEZ10
+Argentina,AlgaeAEZ07
+Argentina,AlgaeAEZ08
+Argentina,AlgaeAEZ09
+Argentina,AlgaeAEZ10
+Argentina,AlgaeAEZ11
+Argentina,AlgaeAEZ12
+Australia_NZ,AlgaeAEZ01
+Australia_NZ,AlgaeAEZ02
+Australia_NZ,AlgaeAEZ03
+Australia_NZ,AlgaeAEZ04
+Australia_NZ,AlgaeAEZ05
+Australia_NZ,AlgaeAEZ06
+Australia_NZ,AlgaeAEZ07
+Australia_NZ,AlgaeAEZ08
+Australia_NZ,AlgaeAEZ09
+Australia_NZ,AlgaeAEZ10
+Australia_NZ,AlgaeAEZ11
+Australia_NZ,AlgaeAEZ12
+Brazil,AlgaeAEZ01
+Brazil,AlgaeAEZ02
+Brazil,AlgaeAEZ03
+Brazil,AlgaeAEZ04
+Brazil,AlgaeAEZ05
+Brazil,AlgaeAEZ06
+Brazil,AlgaeAEZ10
+Brazil,AlgaeAEZ12
+Central America and Caribbean,AlgaeAEZ02
+Central America and Caribbean,AlgaeAEZ04
+Central America and Caribbean,AlgaeAEZ05
+Central America and Caribbean,AlgaeAEZ06
+Central America and Caribbean,AlgaeAEZ12
+Central Asia,AlgaeAEZ07
+Central Asia,AlgaeAEZ08
+Central Asia,AlgaeAEZ09
+China,AlgaeAEZ05
+China,AlgaeAEZ06
+China,AlgaeAEZ07
+China,AlgaeAEZ08
+China,AlgaeAEZ09
+China,AlgaeAEZ10
+China,AlgaeAEZ11
+China,AlgaeAEZ12
+Colombia,AlgaeAEZ02
+Colombia,AlgaeAEZ04
+Colombia,AlgaeAEZ05
+Colombia,AlgaeAEZ06
+Colombia,AlgaeAEZ11
+Colombia,AlgaeAEZ12
+EU-12,AlgaeAEZ10
+EU-15,AlgaeAEZ08
+EU-15,AlgaeAEZ09
+EU-15,AlgaeAEZ10
+EU-15,AlgaeAEZ11
+EU-15,AlgaeAEZ12
+Europe_Non_EU,AlgaeAEZ08
+Europe_Non_EU,AlgaeAEZ09
+Europe_Non_EU,AlgaeAEZ10
+India,AlgaeAEZ01
+India,AlgaeAEZ02
+India,AlgaeAEZ03
+India,AlgaeAEZ04
+India,AlgaeAEZ05
+India,AlgaeAEZ06
+India,AlgaeAEZ07
+India,AlgaeAEZ08
+India,AlgaeAEZ09
+India,AlgaeAEZ10
+India,AlgaeAEZ11
+India,AlgaeAEZ12
+Indonesia,AlgaeAEZ04
+Indonesia,AlgaeAEZ05
+Indonesia,AlgaeAEZ06
+Japan,AlgaeAEZ10
+Japan,AlgaeAEZ11
+Japan,AlgaeAEZ12
+Mexico,AlgaeAEZ01
+Mexico,AlgaeAEZ02
+Mexico,AlgaeAEZ03
+Mexico,AlgaeAEZ04
+Mexico,AlgaeAEZ05
+Mexico,AlgaeAEZ06
+Mexico,AlgaeAEZ07
+Mexico,AlgaeAEZ08
+Mexico,AlgaeAEZ09
+Mexico,AlgaeAEZ10
+Mexico,AlgaeAEZ11
+Middle East,AlgaeAEZ01
+Middle East,AlgaeAEZ03
+Middle East,AlgaeAEZ07
+Middle East,AlgaeAEZ08
+Middle East,AlgaeAEZ09
+Middle East,AlgaeAEZ10
+Pakistan,AlgaeAEZ01
+Pakistan,AlgaeAEZ07
+Pakistan,AlgaeAEZ08
+Pakistan,AlgaeAEZ09
+Pakistan,AlgaeAEZ10
+Pakistan,AlgaeAEZ11
+Pakistan,AlgaeAEZ12
+South Africa,AlgaeAEZ01
+South Africa,AlgaeAEZ02
+South Africa,AlgaeAEZ03
+South Africa,AlgaeAEZ04
+South Africa,AlgaeAEZ05
+South Africa,AlgaeAEZ06
+South Africa,AlgaeAEZ07
+South Africa,AlgaeAEZ08
+South Africa,AlgaeAEZ09
+South Africa,AlgaeAEZ10
+South Africa,AlgaeAEZ11
+South America_Northern,AlgaeAEZ01
+South America_Northern,AlgaeAEZ02
+South America_Northern,AlgaeAEZ03
+South America_Northern,AlgaeAEZ04
+South America_Northern,AlgaeAEZ05
+South America_Northern,AlgaeAEZ06
+South America_Southern,AlgaeAEZ01
+South America_Southern,AlgaeAEZ02
+South America_Southern,AlgaeAEZ03
+South America_Southern,AlgaeAEZ04
+South America_Southern,AlgaeAEZ05
+South America_Southern,AlgaeAEZ06
+South America_Southern,AlgaeAEZ07
+South America_Southern,AlgaeAEZ08
+South America_Southern,AlgaeAEZ09
+South America_Southern,AlgaeAEZ10
+South America_Southern,AlgaeAEZ11
+South America_Southern,AlgaeAEZ12
+South Asia,AlgaeAEZ03
+South Asia,AlgaeAEZ04
+South Asia,AlgaeAEZ05
+South Asia,AlgaeAEZ06
+South Asia,AlgaeAEZ07
+South Asia,AlgaeAEZ08
+South Asia,AlgaeAEZ10
+South Asia,AlgaeAEZ11
+South Asia,AlgaeAEZ12
+South Korea,AlgaeAEZ10
+South Korea,AlgaeAEZ11
+Southeast Asia,AlgaeAEZ04
+Southeast Asia,AlgaeAEZ05
+Southeast Asia,AlgaeAEZ06
+Southeast Asia,AlgaeAEZ10
+Southeast Asia,AlgaeAEZ11
+Southeast Asia,AlgaeAEZ12
