@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="USA">
+      </region>
+      <region name="Africa_Eastern">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Africa_Northern">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Africa_Southern">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Africa_Western">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Australia_NZ">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Brazil">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Canada">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Central America and Caribbean">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Central Asia">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="China">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="EU-12">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="EU-15">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Europe_Eastern">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Europe_Non_EU">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="European Free Trade Association">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="India">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Indonesia">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Japan">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Mexico">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Middle East">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Pakistan">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Russia">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="South Africa">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="South America_Northern">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="South America_Southern">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="South Asia">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="South Korea">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Southeast Asia">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Taiwan">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Argentina">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+      <region name="Colombia">
+         <PrimaryFuelCO2Coef name="feedstock carbon">1</PrimaryFuelCO2Coef>
+      </region>
+   </world>
+</scenario>
