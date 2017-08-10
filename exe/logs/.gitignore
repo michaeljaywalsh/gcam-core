@@ -1,4 +1,27 @@
-# Ignore all log files
-*
-# Do not ignore this file
-!.gitignore
+/C2F6_halocarbon.log
+/CCl4_halocarbon.log
+/CF4_halocarbon.log
+/CFC113_halocarbon.log
+/CFC114_halocarbon.log
+/CFC115_halocarbon.log
+/CFC11_halocarbon.log
+/CFC12_halocarbon.log
+/CH3Br_halocarbon.log
+/CH3CCl3_halocarbon.log
+/CH3Cl_halocarbon.log
+/CH4.log
+/bc.log
+/calibration_log.txt
+/carbon-cycle-solver.log
+*.log
+/main_log.txt
+/parallel-grain-log.txt
+/single_market_log.txt
+/solver-data-key.txt
+/solver-data-log.txt
+/solver_log.csv
+/target_finder_log.txt
+/worst_market_log.txt
+/dependency_finder_log.txt
+/gcam-hector-outputstream.csv
+/climate-log.txt
