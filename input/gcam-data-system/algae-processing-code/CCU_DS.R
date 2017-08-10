@@ -81,7 +81,7 @@ CO2Coef <- getInput("L202.CarbonCoef") %>%
   filter(PrimaryFuelCO2Coef.name==InputDict[[CCUMode]]) %>% 
   summarise(mean(PrimaryFuelCO2Coef)) %>% as.numeric()
 
-
+#Get Data to Prepare for Inversion
 Old <- left_join(getInput("L223.GlobalTechOMvar_elec"),getInput("L223.GlobalTechOMfixed_elec") ) %>% 
   left_join(getInput("L223.GlobalTechCapital_elec")) %>%
   left_join(getInput("L223.GlobalTechEff_elec")) %>%
@@ -90,8 +90,9 @@ Old <- left_join(getInput("L223.GlobalTechOMvar_elec"),getInput("L223.GlobalTech
   select(-c(input.OM.var,input.OM.fixed,input.capital,storage.market)) %>%
   filter(technology == CCSDict[[CCUMode]], year>=StartYear) %>%
   mutate(PrimaryFuelCO2coef = CO2Coef) %>%
-  mutate(FCSecOut = PrimaryFuelCO2coef/efficiency * remove.fraction)
-
+  mutate(FCSecOut = PrimaryFuelCO2coef/efficiency * remove.fraction) %>% #CC/elecltricity
+  mutate(lcoe = (OM.var/1000 + OM.fixed/(8766 * capacity.factor) + capital.overnight * fixed.charge.rate/(8766 * capacity.factor)) / 0.003600457) 
+  
 CCUtemplate <- years %>% filter(year >= StartYear) %>%
   mutate(sector.name = "feedstock carbon", subsector.name=CCUMode,technology=TechDict[[CCUMode]]) %>%
   select(sector.name,subsector.name,technology,year)

@@ -1,0 +1,57 @@
+<BatchRunner>
+	<ComponentSet name="Policy scenarios">
+		<!--FileSet name="REF">
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg_OFF.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+		</FileSet>
+		<FileSet name="REF +A">
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+		</FileSet-->
+		<FileSet name="REF +A +CC">
+			<Value name = "***carbon_utilization">../input/gcam-data-system/xml/energy-xml/CCU_gas.xml</Value>
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg_CCU.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+		</FileSet>
+		<FileSet name="FFICT">
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg_OFF.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+		</FileSet>
+		<FileSet name="FFICT +A">
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+		</FileSet>
+		<FileSet name="FFICT +A +CC">
+			<Value name = "***carbon_content-feedstock-carbon">../input/gcam-data-system/xml/energy-xml/Ccoef_FC.xml</Value>
+			<Value name = "***carbon_utilization">../input/gcam-data-system/xml/energy-xml/CCU_gas.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg_CCU.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+		</FileSet>
+		<FileSet name="UCT">
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg_OFF.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_uct.xml</Value>
+		</FileSet>
+		<FileSet name="UCT +A">
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_uct.xml</Value>
+		</FileSet>
+		<FileSet name="UCT +A +CC">
+			<Value name = "***carbon_content-feedstock-carbon">../input/gcam-data-system/xml/energy-xml/Ccoef_FC.xml</Value>
+			<Value name = "***carbon_utilization">../input/gcam-data-system/xml/energy-xml/CCU_gas.xml</Value>
+			<Value name = "ag_Alg">../input/gcam-data-system/xml/aglu-xml/ag_alg_CCU.xml</Value>
+			<Value name = "***demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_uct.xml</Value>
+		</FileSet>
+	</ComponentSet>
+</BatchRunner>

@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+   <aQuery>
+       <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="N fertilizer recycle from algae htl biodiesel">
+         <axis1 name="technology">technology</axis1>
+         <axis2 name="Year">physical-output[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector']//output-secondary[(@name='N fertilizer' and @type='output') or (@name='algae oil' and @type='output')]/physical-output/node()</xPath>
+         <comments>N fertilizer from algae htl biodiesel, refining (refined liquids) from Coproduction
+Secondary Outputs of Algal Technologies</comments>
+      </supplyDemandQuery>
+   </aQuery>
+   <aQuery>
+       <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="Disposition of Algal Biomass">
+         <axis1 name="technology">input</axis1>
+         <axis2 name="Year">demand-physical[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (:collapse:) and (@name='algae for htl' or @name='AltFood')]//*[@type = 'technology' and (@name='algae for htl' or @name='Algae Coproduction' or @name='Algae Food')]/*[@type='input' and @name='Algae']/demand-physical/node()</xPath>
+         <comments>unconv oil production inputs added in their own rows</comments>
+      </supplyDemandQuery>
+   </aQuery>
+   <aQuery>
+       <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="Algae Processing Inputs">
+         <axis1 name="technology">input</axis1>
+         <axis2 name="Year">demand-physical[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (:collapse:) and (@name='refining' or @name='AltFood')]//*[@type = 'technology' and (@name='algae oil biodiesel' or @name='algae htl biodiesel' or @name='Algae Coproduction' or @name='Algae Food')]/*[@type='input' and not (@name='Algae')]/demand-physical/node()</xPath>
+         <comments>unconv oil production inputs added in their own rows</comments>
+      </supplyDemandQuery>
+   </aQuery>
+   <aQuery>
+       <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="Algae Cultivation inputs">
+         <axis1 name="fuel">input</axis1>
+         <axis2 name="Year">demand-physical[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (:collapse:) and (@name='Algae')]//*[@type='input']/demand-physical/node()</xPath>
+         <comments>unconv oil production inputs added in their own rows</comments>
+      </supplyDemandQuery>
+   </aQuery>
+   <aQuery>
+       <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="Algae Cultivation inputs by AEZ">
+         <axis1 name="fuel">input</axis1>
+         <axis2 name="Year">demand-physical[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (:collapse:) and (@name='Algae')]//*[@type = 'technology']/*[@type='input']/demand-physical/node()</xPath>
+         <comments>unconv oil production inputs added in their own rows</comments>
+      </supplyDemandQuery>
+   </aQuery>
+   <aQuery>
+       <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="Algae Cultivation">
+         <axis1 name="sector">sector[@name]</axis1>
+         <axis2 name="Year">physical-output[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and @name='Algae' and (exists(child::keyword/@supplysector) or local-name() = 'AgSupplySector' or @name='NonFoodDemand_Forest')]//*[@type='output']/physical-output/node()</xPath>
+         <comments/>
+      </supplyDemandQuery>
+   </aQuery>
+   <aQuery>
+       <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="Algae Cultivation by AEZ">
+         <axis1 name="technology">technology[@name]</axis1>
+         <axis2 name="Year">physical-output[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type='sector' and @name='Algae' and (exists(child::keyword/@supplysector) or local-name() = 'AgSupplySector' or @name='NonFoodDemand_Forest')]/*[@type = 'subsector']/*[@type = 'technology']/*[@type='output']/physical-output/node()</xPath>
+         <comments/>
+      </supplyDemandQuery>
+   </aQuery>
+   <aQuery>
+       <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="AltFoodDisposition">
+         <axis1 name="sector">sector</axis1>
+         <axis2 name="Year">demand-physical[@vintage]</axis2>
+         <xPath buildList="true" dataName="input" group="false" sumAll="false">*[@type = 'sector']//*[@type='input' and (@name='AltFood')]/demand-physical/node()</xPath>
+         <comments>Same as Demand Balances By Primary Good w/o other crops </comments>
+      </supplyDemandQuery>
+   </aQuery>
+     	<aQuery>
+		<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="CCU Elec Generation">
+         <axis1 name="technology">technology</axis1>
+         <axis2 name="Year">physical-output[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (:collapse:)]//*[@type = 'technology' (:collapse:)]/fractional-secondary-output[@name='electricity']/physical-output/node()</xPath>
+         <comments>*[@type = 'sector' (:collapse:)]//*[@type = 'technology' (:collapse:)]/fractional-secondary-output[@name='feedstock carbon']/physical-output/node()</comments>
+      </supplyDemandQuery>
+     </aQuery>
+	<aQuery>
+		<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="CCU Output">
+         <axis1 name="technology">technology</axis1>
+         <axis2 name="Year">physical-output[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (: collapse :)]//*[@type = 'technology' and (@name='FT biofuels CCU level 1' or @name='cellulosic ethanol CCU level 1' or @name='biomass (IGCC CCU)' or @name='biomass to H2 CCU' or @name='cement CCU' or @name='coal (IGCC CCU)' or @name='coal chemical CCU' or @name='coal to liquids CCU level 1' or @name='gas (CC CCU)' or @name='natural gas steam reforming CCU' or @name='refined liquids (CC CCU)')]/*[@type='output' (:collapse:)]/physical-output/node()</xPath>
+         <comments/>
+      </supplyDemandQuery>
+     </aQuery>
+	<aQuery>
+		<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <supplyDemandQuery title="CCU Inputs">
+         <axis1 name="technology">input</axis1>
+         <axis2 name="Year">demand-physical[@vintage]</axis2>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (:collapse:)]//*[@type = 'technology' and (@name='FT biofuels CCU level 1' or @name='cellulosic ethanol CCU level 1' or @name='biomass (IGCC CCU)' or @name='biomass to H2 CCU' or @name='cement CCU' or @name='coal (IGCC CCU)' or @name='coal chemical CCU' or @name='coal to liquids CCU level 1' or @name='gas (CC CCU)' or @name='natural gas steam reforming CCU' or @name='refined liquids (CC CCU)')]/*[@type='input']/demand-physical/node()</xPath>
+         <comments>unconv oil production inputs added in their own rows</comments>
+      </supplyDemandQuery>
+	</aQuery>
+
+</queries>

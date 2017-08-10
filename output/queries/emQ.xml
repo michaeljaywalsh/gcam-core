@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+   <aQuery>
+      <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <emissionsQueryBuilder title="CO2 emissions by region">
+      	<axis1 name="region">region</axis1>
+      	<axis2 name="Year">emissions</axis2>
+      	<xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'sector' (:collapse:)]//*[@type = 'GHG' and ((@name='CO2') )]/emissions/node()</xPath>
+      	<comments/>
+      </emissionsQueryBuilder>
+</aQuery>
+<aQuery>
+      <region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <emissionsQueryBuilder title="CO2 emissions by sector">
+         <axis1 name="sector">sector</axis1>
+         <axis2 name="Year">emissions</axis2>
+         <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'sector']//CO2/emissions/node()</xPath>
+         <comments/>
+      </emissionsQueryBuilder>
+</aQuery>
+   <aQuery>
+    <all-regions/>
+    <ClimateQuery title="CO2 concentrations">
+      <axis1 name="CO2-concentration">none</axis1>
+      <axis2 name="Year">CO2-concentration[@year]</axis2>
+      <xPath buildList="true" dataName="CO2-concentration" group="false" sumAll="false">climate-model/CO2-concentration/text()</xPath>
+      <comments/>
+    </ClimateQuery> 
+  </aQuery>
+
+   <aQuery>
+     <all-regions/>
+     <ClimateQuery title="Climate forcing">
+       <axis1 name="forcing-total">none</axis1>
+       <axis2 name="Year">forcing-total[@year]</axis2>
+       <xPath buildList="true" dataName="forcing-total" group="false" sumAll="false">climate-model/forcing-total/text()</xPath>
+       <comments/>
+     </ClimateQuery> 
+   </aQuery>
+
+   <aQuery>
+     <all-regions/>
+     <ClimateQuery title="Global mean temperature">
+       <axis1 name="temperature">none</axis1>
+       <axis2 name="Year">global-mean-temperature[@year]</axis2>
+       <xPath buildList="true" dataName="global-mean-temperature" group="false" sumAll="false">climate-model/global-mean-temperature/text()</xPath>
+       <comments/>
+     </ClimateQuery>
+     </aQuery>
+	<aQuery>
+	<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <emissionsQueryBuilder title="CO2 emissions from fertilizer production">
+         <axis1 name="sector">sector</axis1>
+         <axis2 name="Year">emissions</axis2>
+         <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'sector' and (@name='N fertilizer')]//CO2/emissions/node()</xPath>
+         <comments/>
+      </emissionsQueryBuilder>
+</aQuery>
+<aQuery>
+	<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <emissionsQueryBuilder title="CO2 emissions by technology">
+         <axis1 name="technology">technology</axis1>
+         <axis2 name="Year">emissions</axis2>
+         <xPath buildList="true" dataName="emissions" group="false" sumAll="false">*[@type = 'sector' ]/*[@type='subsector']/*[@type='technology']//CO2/emissions/node()</xPath>
+         <comments/>
+      </emissionsQueryBuilder>
+</aQuery>
+<aQuery>
+	<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <query title="Land Use Change Emission (future)">
+         <axis1 name="land-use-change-emission">LandLeaf</axis1>
+         <axis2 name="Year">land-use-change-emission[@year]</axis2>
+         <xPath buildList="true" dataName="land-use-change-emission" group="false" sumAll="true">/LandNode[@name='root' or @type='LandNode' (: collapse :)]//land-use-change-emission[@year&gt;1975]/text()</xPath>
+         <comments/>
+      </query>
+  </aQuery>
+<!--aQuery>
+	<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+     <emissionsQueryBuilder title="GHG emissions by technology">
+         <axis1 name="technology">technology</axis1>
+         <axis2 name="Year">emissions</axis2>
+         <xPath buildList="true" dataName="emissions" group="false" sumAll="false"> <![CDATA[ 
+			 	 	 declare function local:deep-copy($nodes as node()*) as node()* {
+                         for $node in $nodes
+                         return typeswitch($node)
+                         case $e as element()
+                             return element { local-name($e) } {
+                                 $e/@*,
+                                 for $c in $e/(* | text())
+                                 return local:deep-copy($c)
+                             }
+                         default return $node
+                     };
+			 	 	 declare function local:rename-resource-emiss($resources as node()*) as node()* {
+					         for $resource in $resources
+			 	 		 let $scn := $resource/ancestor::scenario,
+			 			     $rgn := $resource/ancestor::region,
+			 			     $retDoc := document { element scenario {
+									$scn/@*,
+									element region {
+										$rgn/@*,
+										element sector {
+										        attribute type { 'sector' },
+											$resource/@name,
+											element subsector {
+												attribute type { 'subsector' },
+												$resource/@name,
+												element technology {
+													attribute type { 'technology' },
+													$resource/@name,
+													local:deep-copy($resource/*[@type='GHG'])
+			 			 						}
+			 			 	  				}
+										}
+									}
+								}
+							}
+			 			 return
+						     $retDoc//text()
+			 	 	 };  
+			 	 	 declare function local:run-combine-sector-resource-emiss($scenarios as xs:string*, $regions as xs:string*, $collection as xs:string) as node()* { 	
+			 	 	 let $regionsG := if(not($regions[1] = 'Global'))
+			 	 	 		  then $regions
+			 	 	 		  else distinct-values(collection($collection)/scenario/world/*[@type='region']/@name)
+			 	 	 return
+			 	 	 for $scenario in $scenarios, 	    
+			 	 	 $region in $regionsG 	
+			 	 	 let $scenario_split := tokenize($scenario, ' '), 	    
+                     $scenario_name := string-join($scenario_split[position() < last()], ' '),
+			 	 	 $scenario_date := $scenario_split[last()],
+			 	 	 $currTree := collection($collection)/scenario[@name = $scenario_name and @date = $scenario_date]/world/*[@type = 'region' and @name=$region]
+					 return (: rename resources as a sector/subsector/tech :)
+						local:rename-resource-emiss($currTree/*[@type='resource' and exists(child::*[@type='GHG'])])
+						| (: get the sector emissions :)
+						$currTree/*[@type = 'sector' ]//*[@type='technology']/*[@type = 'GHG']/emissions/node()
+	 	 }; 
+            	 local:run-combine-sector-resource-emiss((:scenarios:), (:regions:), (:collection:))]]>
+	 </xPath>
+         <comments/>
+      </emissionsQueryBuilder>
+</aQuery-->
+  <aQuery>
+<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+      <emissionsQueryBuilder title="CH4 emissions by subsector">
+         <axis1 name="sector">sector</axis1>
+         <axis2 name="Year">emissions</axis2>
+         <xPath buildList="true" dataName="emissions" group="false" sumAll="false"><![CDATA[
+			 	 	 declare function local:deep-copy($nodes as node()*) as node()* {
+                         for $node in $nodes
+                         return typeswitch($node)
+                         case $e as element()
+                             return element { local-name($e) } {
+                                 $e/@*,
+                                 for $c in $e/(* | text())
+                                 return local:deep-copy($c)
+                             }
+                         default return $node
+                     };
+			 	 	 declare function local:rename-resource-emiss($resources as node()*) as node()* {
+					         for $resource in $resources
+			 	 		 let $scn := $resource/ancestor::scenario,
+			 			     $rgn := $resource/ancestor::region,
+			 			     $retDoc := document { element scenario {
+									$scn/@*,
+									element region {
+										$rgn/@*,
+										element sector {
+										        attribute type { 'sector' },
+											$resource/@name,
+											element subsector {
+												attribute type { 'subsector' },
+												$resource/@name,
+												element technology {
+													attribute type { 'technology' },
+													$resource/@name,
+													local:deep-copy($resource/*[@type = 'GHG' and ((@name='CH4' or @name='CH4_AWB' or @name='CH4_AGR') )])
+			 			 						}
+			 			 	  				}
+										}
+									}
+								}
+							}
+			 			 return
+						     $retDoc//text()
+			 	 	 };  
+			 	 	 declare function local:run-combine-sector-resource-emiss($scenarios as xs:string*, $regions as xs:string*, $collection as xs:string) as node()* { 	
+			 	 	 let $regionsG := if(not($regions[1] = 'Global'))
+			 	 	 		  then $regions
+			 	 	 		  else distinct-values(collection($collection)/scenario/world/*[@type='region']/@name)
+			 	 	 return
+			 	 	 for $scenario in $scenarios, 	    
+			 	 	 $region in $regionsG 	
+			 	 	 let $scenario_split := tokenize($scenario, ' '), 	    
+                     $scenario_name := string-join($scenario_split[position() < last()], ' '),
+			 	 	 $scenario_date := $scenario_split[last()],
+			 	 	 $currTree := collection($collection)/scenario[@name = $scenario_name and @date = $scenario_date]/world/*[@type = 'region' and @name=$region]
+					 return (: rename resources as a sector/subsector/tech :)
+						local:rename-resource-emiss($currTree/*[@type='resource' and exists(child::*[@type = 'GHG' and ((@name='CH4' or @name='CH4_AWB' or @name='CH4_AGR') )])])
+						| (: get the sector emissions :)
+						$currTree/*[@type = 'sector' ]/*[@type='subsector']//*[@type = 'GHG' and ((@name='CH4' or @name='CH4_AWB' or @name='CH4_AGR') )]/emissions/node()
+	 	 }; 
+            	 local:run-combine-sector-resource-emiss((:scenarios:), (:regions:), (:collection:))]]>
+	 </xPath>
+         <comments/>
+      </emissionsQueryBuilder>
+  </aQuery>
+ <aQuery>
+<region name="USA" />
+       <region name="Canada" />
+       <region name="Western Europe" />
+       <region name="Japan" />
+       <region name="Australia_NZ" />
+       <region name="Former Soviet Union" />
+       <region name="China" />
+       <region name="Middle East" />
+       <region name="Africa" />
+       <region name="Latin America" />
+       <region name="Southeast Asia" />
+       <region name="Eastern Europe" />
+       <region name="Korea" />
+       <region name="India" />
+       <region name="Africa_Eastern" />
+       <region name="Africa_Northern" />
+       <region name="Africa_Southern" />
+       <region name="Africa_Western" />
+       <region name="Brazil" />
+       <region name="Central America and Caribbean" />
+       <region name="Central Asia" />
+       <region name="EU-12" />
+       <region name="EU-15" />
+       <region name="Europe_Eastern" />
+       <region name="Europe_Non_EU" />
+       <region name="European Free Trade Association" />
+       <region name="Indonesia" />
+       <region name="Mexico" />
+       <region name="Pakistan" />
+       <region name="Russia" />
+       <region name="South Africa" />
+       <region name="South America_Northern" />
+       <region name="South America_Southern" />
+       <region name="Argentina" />
+       <region name="Colombia" />
+       <region name="South Asia" />
+       <region name="South Korea" />
+       <region name="Taiwan" />
+    <emissionsQueryBuilder title="N2O emissions by subsector">
+      <axis1 name="sector">sector</axis1>
+      <axis2 name="Year">emissions</axis2>
+      <xPath buildList="true" dataName="emissions" group="false" sumAll="false"><![CDATA[ declare function local:deep-copy($nodes as node()*) as node()* {
+                         for $node in $nodes
+                         return typeswitch($node)
+                         case $e as element()
+                             return element { local-name($e) } {
+                                 $e/@*,
+                                 for $c in $e/(* | text())
+                                 return local:deep-copy($c)
+                             }
+                         default return $node
+                     };
+			 	 	 declare function local:rename-resource-emiss($resources as node()*) as node()* {
+					         for $resource in $resources
+			 	 		 let $scn := $resource/ancestor::scenario,
+			 			     $rgn := $resource/ancestor::region,
+			 			     $retDoc := document { element scenario {
+									$scn/@*,
+									element region {
+										$rgn/@*,
+										element sector {
+										        attribute type { 'sector' },
+											$resource/@name,
+											element subsector {
+												attribute type { 'subsector' },
+												$resource/@name,
+												element technology {
+													attribute type { 'technology' },
+													$resource/@name,
+													local:deep-copy($resource/*[@type = 'GHG' and ((@name='N2O' or @name='N2O_AWB' or @name='N2O_AGR') )])
+			 			 						}
+			 			 	  				}
+										}
+									}
+								}
+							}
+			 			 return
+						     $retDoc//text()
+			 	 	 };  
+			 	 	 declare function local:run-combine-sector-resource-emiss($scenarios as xs:string*, $regions as xs:string*, $collection as xs:string) as node()* { 	
+			 	 	 let $regionsG := if(not($regions[1] = 'Global'))
+			 	 	 		  then $regions
+			 	 	 		  else distinct-values(collection($collection)/scenario/world/*[@type='region']/@name)
+			 	 	 return
+			 	 	 for $scenario in $scenarios, 	    
+			 	 	 $region in $regionsG 	
+			 	 	 let $scenario_split := tokenize($scenario, ' '), 	    
+                     $scenario_name := string-join($scenario_split[position() < last()], ' '),
+			 	 	 $scenario_date := $scenario_split[last()],
+			 	 	 $currTree := collection($collection)/scenario[@name = $scenario_name and @date = $scenario_date]/world/*[@type = 'region' and @name=$region]
+					 return (: rename resources as a sector/subsector/tech :)
+						local:rename-resource-emiss($currTree/*[@type='resource' and exists(child::*[@type = 'GHG' and ((@name='N2O' or @name='N2O_AWB' or @name='N2O_AGR') )])])
+						| (: get the sector emissions :)
+						$currTree/*[@type = 'sector' ]/*[@type='subsector']//*[@type = 'GHG' and ((@name='N2O' or @name='N2O_AWB' or @name='N2O_AGR') )]/emissions/node()
+	 	 }; 
+            	 local:run-combine-sector-resource-emiss((:scenarios:), (:regions:), (:collection:))]]></xPath>
+      <comments/>
+    </emissionsQueryBuilder>
+  </aQuery>
+</queries>

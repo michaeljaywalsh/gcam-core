@@ -1,0 +1,15 @@
+<ModelInterfaceBatch>
+	<class name="ModelInterface.ModelGUI2.InputViewer">
+	<command name="CSV file">
+        <!-- For tags creating policy input seeting up the policy marketss -->
+        <csvFile>RESPolicy.csv</csvFile>
+        <!-- For tags creating percentage constraint -->
+        <csvFile>L226.StubTechEnergyInput_20p.csv</csvFile>
+        <!-- For tags specifying which technologies to subsidize/tax -->
+        <csvFile>L223.GlobalTechRESSecondaryOutput_wind_solar_RES_policy.csv</csvFile>
+        <csvFile>L223.GlobalIntTechRESSecondaryOutput_wind_solar_RES_policy.csv</csvFile>
+        <headerFile>RES_policy_header.txt</headerFile>
+        <outFile>wind_solar_20p_RES_subsidy.xml</outFile>
+ 	</command>
+	</class>
+</ModelInterfaceBatch>
