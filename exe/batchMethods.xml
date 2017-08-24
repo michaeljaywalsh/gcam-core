@@ -1,0 +1,105 @@
+<BatchRunner>
+	<ComponentSet name="Policy scenarios">
+		<!--FileSet name="NoA_REF">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_OFF_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_OFF.xml</Value>
+		</FileSet>
+		<FileSet name="DBF_REF ">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_dbfonly.xml</Value>
+		</FileSet>
+		<FileSet name="COP_REF ">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_coponly.xml</Value>
+		</FileSet-->
+		<!--FileSet name="HTL_REF">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_OFF.xml</Value>
+			<Value name = "AlgEnergy">../input/gcam-data-system/xml/energy-xml/alg_energy.xml</Value>
+		</FileSet-->
+		<!--FileSet name="ALL_REF">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_BOTH.xml</Value>
+			<Value name = "AlgEnergy">../input/gcam-data-system/xml/energy-xml/alg_energy.xml</Value>
+		</FileSet>
+		<FileSet name="NoA_FFT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_OFF_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_OFF.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+		</FileSet>
+		<FileSet name="DBF_FFT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_dbfonly.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+		</FileSet>
+		<FileSet name="COP_FFT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_coponly.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+		</FileSet-->
+		<!--FileSet name="HTL_FFT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_OFF.xml</Value>
+			<Value name = "AlgEnergy">../input/gcam-data-system/xml/energy-xml/alg_energy.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+		</FileSet>
+		<FileSet name="ALL_FFT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_BOTH.xml</Value>
+			<Value name = "AlgEnergy">../input/gcam-data-system/xml/energy-xml/alg_energy.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+		</FileSet-->
+		<!--FileSet name="NoA_UCT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_OFF_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_OFF.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_uct.xml</Value>
+		</FileSet-->
+		<FileSet name="DBF_UCT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_dbfonly.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_uct.xml</Value>
+		</FileSet>
+		<!--FileSet name="COP_UCT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_coponly.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_uct.xml</Value>
+		</FileSet>
+		<FileSet name="HTL_UCT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_OFF.xml</Value>
+			<Value name = "AlgEnergy">../input/gcam-data-system/xml/energy-xml/alg_energy.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_uct.xml</Value>
+		</FileSet>
+		<FileSet name="ALL_UCT">
+			<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+			<Value name = "AlgCult">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+			<Value name = "AlgFood">../input/gcam-data-system/xml/aglu-xml/alg_food_BOTH.xml</Value>
+			<Value name = "AlgEnergy">../input/gcam-data-system/xml/energy-xml/alg_energy.xml</Value>
+			<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+			<Value name="tax_scope">../input/policy/global_uct.xml</Value>
+		</FileSet-->
+	</ComponentSet>
+</BatchRunner>

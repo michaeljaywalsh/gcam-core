@@ -8,9 +8,9 @@ setwd("/home/michael/GCAM/gcam-core/input/gcam-data-system/algae-data")
 
 
 #Update From DropBox
-file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Algae_GCAM_ProcessData.xlsx","../algae-data",overwrite=TRUE)
-file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Ccoef_FC.xml","../algae-data",overwrite=TRUE)
-file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/AlgaeGeospatial","../algae-data",recursive=TRUE,overwrite=TRUE)
+#file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Algae_GCAM_ProcessData.xlsx","../algae-data",overwrite=TRUE)
+#file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/Ccoef_FC.xml","../algae-data",overwrite=TRUE)
+#file.copy("~/Dropbox (ScienceandIndustry)/AlgaeGCAM/Model/AlgaeGeospatial","../algae-data",recursive=TRUE,overwrite=TRUE)
 
 RegNotIncluded <- c('Canada','Russia','Europe_Eastern','European Free Trade Association')
 regnames <- read_csv("../_common/mappings/GCAM_region_names_32reg.csv",skip=3) %>%

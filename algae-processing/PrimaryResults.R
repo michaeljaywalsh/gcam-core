@@ -5,7 +5,7 @@ library(RColorBrewer)
 #setwd(this.dir)
 #source('../input/gcam-data-system/algae-processing-code/AlgaeHeaders.r')
 
-conn <- localDBConn('../output', 'AlgaeSimple_basexdb')
+conn <- localDBConn('../output', 'Algae_basexdb')
 QueryFile.Em = '../output/queries/emQ.xml'
 QueryFile.LUC = '../output/queries/LUCQ.xml'
 QueryFile.Alg = '../output/queries/AlgaeQueries.xml'

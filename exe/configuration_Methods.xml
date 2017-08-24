@@ -2,7 +2,7 @@
 <Configuration>
 	<Files>
 		<Value name="xmlInputFileName">../input/gcam-data-system/xml/modeltime-xml/modeltime.xml</Value>
-		<Value name="BatchFileName">batchAlgae.xml</Value>
+		<Value name="BatchFileName">batchMethods.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_3p7.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
 		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/Method_basexdb</Value>

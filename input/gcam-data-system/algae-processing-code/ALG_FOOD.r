@@ -10,15 +10,15 @@ source("../algae-processing-code/AlgaeHeaders.r")
 #COPRODUCTION = FALSE
 
 #Global Tech Share Weights 1975-2100
-AltAlgFood.shwt <- c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
-AltAlgCoprd.shwt <-  c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1) #Use 0 to shut off
+AltAlgFood.shwt <- 0# c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
+AltCoP.shwt <- c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1) #Use 0 to shut off
 FeedAlt.shwt <- c(0,0,0,0,0,.2,.4,.6,.8,1,1,1,1,1,1,1,1,1,1,1,1,1) #use 0 to shut off
-DemandAlt.shwt <- c(0,0,0,0,0,.2,.4,.6,.8,1,1,1,1,1,1,1,1,1,1,1,1,1) #use 0 to shutoff
+DemandAlt.shwt <-  c(0,0,0,0,0,.2,.4,.6,.8,1,1,1,1,1,1,1,1,1,1,1,1,1) #use 0 to shutoff
 
 FixedFoodDemand = TRUE
 
 #Output settings:
-foodXML <- "alg_food.xml"
+foodXML <- "alg_food_COsec.xml"
 demandXML <- "demand_input_ALT.xml"
 
 foodbatch <- paste0("batch_",foodXML) 
@@ -39,7 +39,12 @@ aezyears <- as_tibble(merge(aeznames,years))
 AltFood.elec <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'AltFood_electricity')))
 AltFood.gas <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'AltFood_wholesale_gas')))
 AltFood.alg <- 1 
-AltFood.cost <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'AltFood_input_cost')))
+AltFood.cost <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'WE_input_cost')))
+CoProd.elec <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'WE_electricity')))
+CoProd.gas <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'WE_wholesale_gas')))
+CoProd.alg <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'WE_Algae')))
+CoProd.cost <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'AltFood_input_cost')))
+CoProd.secout <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'WE_SecOut_BiomassOil'))) 
 Calorie.alg <- 4.5
 
 ###AltFood #Does not include co-production!!!! 
@@ -101,6 +106,89 @@ AltF.GlobalTechShrwt <- AltFoodYears %>%
   mutate(share.weight = AltAlgFood.shwt) %>%
   select(sector.name,subsector.name,technology,year,share.weight)
 write_mi_data(AltF.GlobalTechShrwt,"GlobalTechShrwt","AGLU_LEVEL2_DATA","AltF.GlobalTechShrwt", "AGLU_XML_BATCH", foodbatch)
+
+#Coproduction
+tibble(group.name="LogitType",tag1="dummy-logit-tag",tag2="relative-cost-logit",tag3="absolute-cost-logit") %>%
+  write_mi_data("EQUIV_TABLE","AGLU_LEVEL2_DATA","CoP.EQUIV_TABLE", "AGLU_XML_BATCH", foodbatch)
+
+CoPYears<- years %>% mutate(sector.name='AltFood',subsector.name='Algae Coproduction',technology='Algae Coproduction')
+
+bind_rows(CoPYears %>% mutate(minicam.energy.input='elect_td_ind',coefficient=CoProd.elec),
+          CoPYears %>% mutate(minicam.energy.input='wholesale gas',coefficient=CoProd.gas),
+          CoPYears %>% mutate(minicam.energy.input='Algae',coefficient=CoProd.alg)) %>% 
+  select(sector.name,subsector.name,technology,year,minicam.energy.input,coefficient) %>% 
+  signif_df(4) %>%
+  write_mi_data("GlobalTechCoef","AGLU_LEVEL2_DATA","CoP.GlobalTechCoef", "AGLU_XML_BATCH", foodbatch)
+
+CoPYears %>% mutate(minicam.non.energy.input="non-energy",input.cost=CoProd.cost) %>%
+  select(sector.name,subsector.name,technology,year,minicam.non.energy.input,input.cost) %>% 
+  signif_df(4) %>%
+  write_mi_data("GlobalTechCost","AGLU_LEVEL2_DATA","CoP.GlobalTechCost", "AGLU_XML_BATCH", foodbatch)
+
+algregnames %>% 
+  mutate(supplysector = "AltFood", logit.type="relative-cost-logit") %>% 
+  write_mi_data("Supplysector_relative-cost-logit","AGLU_LEVEL2_DATA","CoP.Supplysector_relative-cost-logit", "AGLU_XML_BATCH", foodbatch)
+
+tibble(region=character(),supplysector=character(),logit.type=character()) %>%
+  write_mi_data("Supplysector_absolute-cost-logit","AGLU_LEVEL2_DATA","CoP.Supplysector_absolute-cost-logit", "AGLU_XML_BATCH", foodbatch)
+
+algregnames %>% 
+  select(region) %>% 
+  mutate(supplysector="AltFood",output.unit="Mt",input.unit="Mt",
+         price.unit="1975$/kg",logit.year.fillout=1975,logit.exponent=-1.5) %>%
+  write_mi_data("Supplysector","AGLU_LEVEL2_DATA","CoP.Supplysector", "AGLU_XML_BATCH", foodbatch)
+
+algregnames %>% 
+  mutate(supplysector = "AltFood", subsector = "Algae Coproduction", logit.type="relative-cost-logit") %>%
+  write_mi_data("SubsectorLogit_relative-cost-logit","AGLU_LEVEL2_DATA","CoP.SubsectorLogit_relative-cost-logit", "AGLU_XML_BATCH", foodbatch)
+
+tibble(region=character(),supplysector=character(),subsector=character(),logit.type=character()) %>%
+  write_mi_data("SubsectorLogit_absolute-cost-logit","AGLU_LEVEL2_DATA","CoP.SubsectorLogit_absolute-cost-logit", "AGLU_XML_BATCH", foodbatch)
+
+algregnames %>% 
+  mutate(supplysector = "AltFood", subsector = "Algae Coproduction", logit.year.fillout=1975,
+         logit.exponent=-6,year.fillout=2020,share.weight=1, apply.to ="share-weight", 
+         from.year=2020, to.year=2100, interpolation.function="fixed") %>%
+  write_mi_data("SubsectorAll","AGLU_LEVEL2_DATA","CoP.SubsectorAll", "AGLU_XML_BATCH", foodbatch)
+
+algregnames %>% 
+  mutate(supplysector = "AltFood", subsector = "Algae Coproduction", stub.technology = "Algae Coproduction") %>% 
+  merge(baseyears) %>%
+  mutate(calOutputValue=0,share.weight.year=1975,subs.share.weight=0,tech.share.weight=0) %>%
+  write_mi_data("StubTechProd","AGLU_LEVEL2_DATA","CoP.StubTechProd", "AGLU_XML_BATCH", foodbatch)
+
+algregnames %>% 
+  mutate(supplysector = "AltFood", subsector="Algae Coproduction", stub.technology="Algae Coproduction") %>%
+  write_mi_data("StubTech","AGLU_LEVEL2_DATA","CoP.StubTech", "AGLU_XML_BATCH", foodbatch)
+
+CoPYears %>% 
+  mutate(share.weight = AltCoP.shwt) %>%
+  select(sector.name,subsector.name,technology,year,share.weight) %>%
+  write_mi_data("GlobalTechShrwt","AGLU_LEVEL2_DATA","CoP.GlobalTechShrwt", "AGLU_XML_BATCH", foodbatch)
+
+#Fractional Secondary outputs
+# bind_rows(CoPYears %>% 
+#             mutate(fractional.secondary.output='refined liquids enduse',
+#                    price=0,fraction.produced=0),
+#           CoPYears %>% 
+#             mutate(fractional.secondary.output='refined liquids enduse',
+#                    price=0.1,fraction.produced=1)) %>%
+#   select(sector.name,subsector.name,technology,year,fractional.secondary.output,price,fraction.produced) %>%
+#   write_mi_data("GlobalTechFractProd","AGLU_LEVEL2_DATA","CoP.GlobalTechFractProd", "AGLU_XML_BATCH", foodbatch)
+# 
+# CoPYears %>% 
+#   mutate(fractional.secondary.output='refined liquids enduse',output.ratio=CoProd.secout) %>%
+#   signif_df(4) %>%
+#   select(sector.name,subsector.name,technology,year,fractional.secondary.output,output.ratio) %>%
+#   write_mi_data("GlobalTechFractSecOut","AGLU_LEVEL2_DATA","CoP.GlobalTechFractSecOut", "AGLU_XML_BATCH", foodbatch)
+
+### Secondary Ouput 
+CoPYears %>% 
+  mutate(secondary.output='refined liquids enduse',output.ratio=CoProd.secout) %>%
+  signif_df(4) %>%
+  select(sector.name,subsector.name,technology,year,secondary.output,output.ratio) %>%
+  write_mi_data("GlobalTechSecOut","AGLU_LEVEL2_DATA","CoP.GlobalTechSecOut", "AGLU_XML_BATCH", foodbatch)
+
 
 #Feed
 FeedYears<- years %>% mutate(sector.name='FeedCrops',subsector.name='AltFood',technology='AltFood')

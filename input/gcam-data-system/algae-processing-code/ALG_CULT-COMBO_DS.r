@@ -7,7 +7,7 @@ CCUMode <- 'gas'
 secoutput.sector = "electricity"
 suffix <- ""
 comboXML <- "alg_cult_combo.xml"
-combobatch <- paste0('batch_ag_algccu_',CCUMode,suffix,'.xml')
+combobatch <- paste0('batch_alg_cult_combo_',CCUMode,suffix,'.xml')
 TechDict <- list(gas="gas (CC CCU)",biomass="biomass (IGCC CCU)",coal="coal (IGCC CCU")
 CCSDict <- list(gas="gas (CC CCS)",biomass="biomass (IGCC CCS)",coal="coal (IGCC CCS)")
 CCUshwt <- c(0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1) #Use 0 to shut off
