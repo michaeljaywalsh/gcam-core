@@ -21,7 +21,7 @@ HTL_Cost.factor <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'HTL_inp
 HTL_N_out.factor <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'HTL_SecOut_N_fertilizer')))
 
 algaeforhtl.shwt <- c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1) #Probably doesn't need to be changed
-HTL_Algae.shwt <- c(0,0,0,0,0,.2,.4,.6,.8,1,1,1,1,1,1,1,1,1,1,1,1,1) 
+HTL_Algae.shwt <- c(0,0,0,0,0,0.05,.1,.2,.3,.4,.5,.6,.7,.8,.9,1,1,1,1,1,1,1)
 
 
 

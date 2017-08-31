@@ -10,15 +10,15 @@ source("../algae-processing-code/AlgaeHeaders.r")
 #COPRODUCTION = FALSE
 
 #Global Tech Share Weights 1975-2100
-AltAlgFood.shwt <- 0# c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
-AltCoP.shwt <- c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1) #Use 0 to shut off
-FeedAlt.shwt <- c(0,0,0,0,0,.2,.4,.6,.8,1,1,1,1,1,1,1,1,1,1,1,1,1) #use 0 to shut off
-DemandAlt.shwt <-  c(0,0,0,0,0,.2,.4,.6,.8,1,1,1,1,1,1,1,1,1,1,1,1,1) #use 0 to shutoff
+AltAlgFood.shwt <-c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
+AltCoP.shwt <- # c(0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1) #Use 0 to shut off
+FeedAlt.shwt <- c(0,0,0,0,0,0.05,.1,.2,.3,.4,.5,.6,.7,.8,.9,1,1,1,1,1,1,1) #use 0 to shut off
+DemandAlt.shwt <- c(0,0,0,0,0,0.05,.1,.2,.3,.4,.5,.6,.7,.8,.9,1,1,1,1,1,1,1) #use 0 to shutoff
 
 FixedFoodDemand = TRUE
 
 #Output settings:
-foodXML <- "alg_food_COsec.xml"
+foodXML <- "alg_food_DBF.xml"
 demandXML <- "demand_input_ALT.xml"
 
 foodbatch <- paste0("batch_",foodXML) 
@@ -28,12 +28,6 @@ unlink(paste0("../xml/aglu-xml/",foodXML))
 unlink(paste0("../aglu-processing-code/xml-batch/",foodbatch))
 unlink(paste0("../xml/aglu-xml/",demandXML))
 unlink(paste0("../aglu-processing-code/xml-batch/",demandbatch))
-
-
-#NEED TO IMPROVE to extract directly from the data
-aeznames <- read_csv("../algae-data/AlgaeGeospatial/algAEZ.csv",skip=3)
-aezyears <- as_tibble(merge(aeznames,years))
-
 
 ## Get External Variables
 AltFood.elec <- as.numeric(names(read.xlsx(ProcessData,namedRegion = 'AltFood_electricity')))
@@ -168,23 +162,23 @@ CoPYears %>%
 
 #Fractional Secondary outputs
 # bind_rows(CoPYears %>% 
-#             mutate(fractional.secondary.output='refined liquids enduse',
+#             mutate(fractional.secondary.output='refining',
 #                    price=0,fraction.produced=0),
 #           CoPYears %>% 
-#             mutate(fractional.secondary.output='refined liquids enduse',
+#             mutate(fractional.secondary.output='refining',
 #                    price=0.1,fraction.produced=1)) %>%
 #   select(sector.name,subsector.name,technology,year,fractional.secondary.output,price,fraction.produced) %>%
 #   write_mi_data("GlobalTechFractProd","AGLU_LEVEL2_DATA","CoP.GlobalTechFractProd", "AGLU_XML_BATCH", foodbatch)
 # 
 # CoPYears %>% 
-#   mutate(fractional.secondary.output='refined liquids enduse',output.ratio=CoProd.secout) %>%
+#   mutate(fractional.secondary.output='refining',output.ratio=CoProd.secout) %>%
 #   signif_df(4) %>%
 #   select(sector.name,subsector.name,technology,year,fractional.secondary.output,output.ratio) %>%
 #   write_mi_data("GlobalTechFractSecOut","AGLU_LEVEL2_DATA","CoP.GlobalTechFractSecOut", "AGLU_XML_BATCH", foodbatch)
 
 ### Secondary Ouput 
 CoPYears %>% 
-  mutate(secondary.output='refined liquids enduse',output.ratio=CoProd.secout) %>%
+  mutate(secondary.output='refining',output.ratio=CoProd.secout) %>%
   signif_df(4) %>%
   select(sector.name,subsector.name,technology,year,secondary.output,output.ratio) %>%
   write_mi_data("GlobalTechSecOut","AGLU_LEVEL2_DATA","CoP.GlobalTechSecOut", "AGLU_XML_BATCH", foodbatch)

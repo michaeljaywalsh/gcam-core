@@ -93,7 +93,7 @@ Secondary Outputs of Algal Technologies</comments>
       <supplyDemandQuery title="CCU Output">
          <axis1 name="technology">technology</axis1>
          <axis2 name="Year">physical-output[@vintage]</axis2>
-         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (: collapse :)]//*[@type = 'technology' and (@name='FT biofuels CCU level 1' or @name='cellulosic ethanol CCU level 1' or @name='biomass (IGCC CCU)' or @name='biomass to H2 CCU' or @name='cement CCU' or @name='coal (IGCC CCU)' or @name='coal chemical CCU' or @name='coal to liquids CCU level 1' or @name='gas (CC CCU)' or @name='natural gas steam reforming CCU' or @name='refined liquids (CC CCU)')]/*[@type='output' (:collapse:)]/physical-output/node()</xPath>
+         <xPath buildList="true" dataName="output" group="false" sumAll="false">*[@type = 'sector' (: collapse :)]//*[@type = 'technology' and (@name='FT biofuels CCU level 1' or @name='cellulosic ethanol CCU level 1' or @name='biomass (IGCC CCU)' or @name='biomass to H2 CCU' or @name='cement CCU' or @name='coal (IGCC CCU' or @name='coal chemical CCU' or @name='coal to liquids CCU level 1' or @name='gas (CC CCU)' or @name='natural gas steam reforming CCU' or @name='refined liquids (CC CCU)')]/*[@type='output' (:collapse:)]/physical-output/node()</xPath>
          <comments/>
       </supplyDemandQuery>
       <supplyDemandQuery title="CCU Inputs">

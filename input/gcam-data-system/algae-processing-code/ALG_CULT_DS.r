@@ -8,12 +8,12 @@ source("../algae-processing-code/AlgaeHeaders.r")
 #TODOs 
 #Add option for coprodcution
 
-ALGAE = FALSE
+ALGAE = TRUE
 USECCU = TRUE
 
 
 #Output settings:
-algXML <- "alg_cult_OFF.xml"
+algXML <- "alg_cult.xml"
 
 if (USECCU){algXML<- str_replace(algXML,".xml","_CCU.xml")}
 cultbatch <- paste0("batch_",algXML) 
@@ -67,6 +67,7 @@ AlgC.AgYield <- aezyears %>%
   mutate(AgProductionTechnology = AgSupplySubsector) %>%
   full_join(yields,by=c('region','AgSupplySubsector')) %>%
   mutate(yield = Annual * logimp(year)) %>%
+  #mutate(yield = Annual) %>%
   select(region,AgSupplySector,AgSupplySubsector,AgProductionTechnology,year,yield) %>% 
   signif_df(4)
 

@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batchAlgae.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_3p7.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/Method_basexdb</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/COPOTest_basexdb</Value>
 		<Value write-output="1" append-scenario-name="0" name="xmlOutputFileName">../output/output.xml</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="0" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -55,18 +55,31 @@
 		<Value name = "bio">../input/gcam-data-system/xml/aglu-xml/bio_hi.xml</Value>
 
 		<!-- ADJUST MODEL HERE -->
-		<!--Value name = "Algae_Cultivation">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
-		<Value name = "Algae_Cultivation">../input/gcam-data-system/xml/aglu-xml/alg_cult_OFF.xml</Value>
-		<Value name = "Algae_Food">../input/gcam-data-system/xml/aglu-xml/alg_food_OFF.xml</Value>
-		<Value name = "Algae_Food">../input/gcam-data-system/xml/aglu-xml/alg_food_dbfonly.xml</Value>
-		<Value name = "Algae_Food">../input/gcam-data-system/xml/aglu-xml/alg_food_coponly.xml</Value>
-		<Value name = "Algae_Food">../input/gcam-data-system/xml/aglu-xml/alg_food_BOTH.xml</Value-->
-		<!--Value name = "Algae_Energy">../input/gcam-data-system/xml/energy-xml/alg_energy.xml</Value-->
-		<Value name = "carbon_content-feedstock-carbon">../input/gcam-data-system/xml/energy-xml/Ccoef_FC.xml</Value>
-		<Value name = "CCU">../input/gcam-data-system/xml/energy-xml/CCU_gas.xml</Value>
-		<!--Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value-->
-		<!--Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value-->
-		<!--Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input.xml</Value-->
+		<!-- CULTIVATION: Select One-->
+		<Value name = "Algae_Cultivation">../input/gcam-data-system/xml/aglu-xml/alg_cult_CCU.xml</Value>
+<!--		<Value name = "Algae_Cultivation">../input/gcam-data-system/xml/aglu-xml/alg_cult_OFF.xml</Value>-->
+
+		<!-- FOOD: Select One-->
+<!--		<Value name = "Algae_Food">../input/gcam-data-system/xml/aglu-xml/alg_food_OFF.xml</Value>-->
+		<Value name = "Algae_Food">../input/gcam-data-system/xml/aglu-xml/alg_food_DBF.xml</Value>
+<!--		<Value name = "Algae_Food">../input/gcam-data-system/xml/aglu-xml/alg_food_WE.xml</Value>-->
+<!--		<Value name = "Algae_Food">../input/gcam-data-system/xml/aglu-xml/alg_food_BOTH.xml</Value>-->
+
+		<!-- Energy: Select or Not-->
+<!--		<Value name = "Algae_Energy">../input/gcam-data-system/xml/energy-xml/alg_energy.xml</Value>-->
+
+		<!-- Feedstock Accounting: Select or Not-->
+<!--		<Value name = "carbon_content-feedstock-carbon">../input/gcam-data-system/xml/energy-xml/Ccoef_FC.xml</Value>-->
+		
+		<!-- Feedstock: Select One-->
+		<Value name = "CCU">../input/gcam-data-system/xml/energy-xml/CCU_coal.xml</Value>
+<!--		<Value name = "CCU">../input/gcam-data-system/xml/energy-xml/CCU_gas.xml</Value>-->
+<!--		<Value name = "CCU">../input/gcam-data-system/xml/energy-xml/CCU_bio.xml</Value>-->
+
+		<!-- Demand: Select One-->
+		<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT.xml</Value>
+<!--		<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input_ALT_OFF.xml</Value>-->
+<!--		<Value name = "demand">../input/gcam-data-system/xml/aglu-xml/demand_input.xml</Value>-->
 		<!-- End -->
 
 		<Value name = "ind_urb_proc">../input/gcam-data-system/xml/emissions-xml/ind_urb_processing_sectors.xml</Value>
@@ -75,26 +88,26 @@
 		<Value name = "nonco2_fgas">../input/gcam-data-system/xml/emissions-xml/all_fgas_emissions.xml</Value>
 		<Value name = "nonco2_unmgd">../input/gcam-data-system/xml/emissions-xml/all_unmgd_emissions.xml</Value>
 		<Value name = "prot_emiss">../input/gcam-data-system/xml/emissions-xml/all_protected_unmgd_emissions.xml</Value>
+		<Value name = "solver">../input/solution/cal_broyden_config.xml</Value>
 		<Value name = "solver">../input/solution/cal_broyden_config-long.xml</Value>
-		<!--Value name = "solver">../input/solution/cal_broyden_config-long.xml</Value-->
 
 		<!-- SET POLICY HERE -->
-		<!--Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
-		<Value name="tax_scope">../input/policy/global_uct.xml</Value-->
-		<!--Value name="biolink">../input/policy/bio_adder.xml</Value>
-		<Value name="biosubsidy">../input/policy/biosubsidy.xml</Value-->
+		<Value name="tax">../input/policy/carbon_tax_RCP3p7_approx.xml</Value>
+		<Value name="tax_scope">../input/policy/global_ffict.xml</Value>
+<!--		<Value name="biolink">../input/policy/bio_adder.xml</Value>-->
+<!--		<Value name="biosubsidy">../input/policy/biosubsidy.xml</Value>-->
 		<!-- End -->
 
 	</ScenarioComponents>
 	<Strings>
-		<Value name="scenarioName">M_</Value>
+		<Value name="scenarioName">CoProduction</Value>
 		<Value name="debug-region">USA</Value>
 		<Value name="MAGICC-input-dir">../input/magicc/inputs</Value>
 		<Value name="MAGICC-output-dir">../output</Value>
 	</Strings>
 	<Bools>
 		<Value name="CalibrationActive">1</Value>
-		<Value name="BatchMode">1</Value>
+		<Value name="BatchMode">0</Value>
 		<Value name="find-path">0</Value>
 		<Value name="createCostCurve">0</Value>
 		<Value name="debugChecking">0</Value>
